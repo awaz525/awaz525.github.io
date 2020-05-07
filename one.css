@@ -21,21 +21,17 @@ font-style: normal; */
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(img/14Frozen.jpg);
     
     display: grid;
     grid-template-rows: 70px 1fr 65px;
     grid-template-columns: 9vw 1fr;
 }
 
-.home {
-    font-family: dharma-gothic-e,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50px;
+.index.html {
     text-decoration: underline;
-    color: #F2C41D;
+    z-index: 10;
     margin: auto;
+    text-align: center;
 
     grid-row: 1/2;
     grid-column: 2/3;
@@ -49,6 +45,7 @@ a {
     font-size: 25px;
     text-decoration: none;
     margin: auto;
+    z-index: 10;
 }
 
 a:visited {
@@ -66,26 +63,36 @@ a:hover {
     grid-column: 1/2;
     margin: auto;
     margin-left: 1vw;
+    z-index: 10;
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 13px;
 }
 
-.one.html {
-    text-align: right;
+.one {
+    font-family: dharma-gothic-e,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #F2C41D;
+    text-align: center;
+    z-index: 10;
 }
 
 .two.html {
     text-align: right;
+    z-index: 10;
 }
 
 .three.html {
     text-align: right;
+    z-index: 10;
 }
 
 .about.html {
     text-align: right;
+    z-index: 10;
 }
 
 .line {
@@ -95,38 +102,12 @@ a:hover {
     margin: auto;
     grid-row: 1/5;
     grid-column: 2/3;
+    z-index: 10;
 }
 
-.title {
-    grid-row: 2/3;
-    grid-column: 2/3;
+.image1 {
+    z-index: 1;
+    position: absolute;
     margin: auto;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 75px;
-}
-
-.firstname {
-    font-family: dharma-gothic-m,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #F2C41D;
-    font-size: 700px;
-    margin: 0px;
-    padding: 0;
-    letter-spacing: 50px;
-    grid-row: 1/2;
-}
-
-.lastname {
-    font-family: montserrat,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 100px;
-    margin: 0px;
-    padding: 0;
-    letter-spacing: 55px;
-    grid-row: 2/3;
+    top: 0;
 }
