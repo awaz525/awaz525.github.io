@@ -1,5 +1,5 @@
 body {
-
+    background-color: #041B29;
 }
 
 /* font-family: dharma-gothic-e,sans-serif;
@@ -47,7 +47,6 @@ a {
     font-size: 25px;
     text-decoration: none;
     margin: auto;
-    z-index: 10;
 }
 
 a:visited {
@@ -74,28 +73,25 @@ a:hover {
     grid-template-columns: 1fr 13px;
 }
 
-.one {
+.one.html {
+    text-align: right;
+}
+
+.two.html {
+    text-align: right;
+}
+
+.three.html {
+    text-align: right;
+}
+
+.about {
     font-family: dharma-gothic-e,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
     color: #F2C41D;
     text-align: center;
-    z-index: 10;
-}
-
-.two.html {
-    text-align: right;
-    z-index: 10;
-}
-
-.three.html {
-    text-align: right;
-    z-index: 10;
-}
-
-.about.html {
-    text-align: right;
     z-index: 10;
 }
 
@@ -106,79 +102,19 @@ a:hover {
     margin: auto;
     grid-row: 1/5;
     grid-column: 2/3;
-    z-index: 10;
-}
-
-.image1 {
-    z-index: 1;
-    position: relative;
-    margin: auto;
-    margin-top: 0;
-    top: 0;
-    left: 0;
-}
-
-.image2 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image3 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image4 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image5 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image6 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image7 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image8 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
 }
 
 .description {
     font-family: montserrat,sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
+    color: white;
     font-size: 25px;
     text-decoration: none;
     margin: auto;
-    margin-bottom: 100px;
-    margin-top: 75px;
     width: 69vw;
     position: relative;
+    top: 270px;
 
     grid-row: 2/3;
     grid-column: 2/3;

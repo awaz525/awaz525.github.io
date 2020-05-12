@@ -43,7 +43,7 @@ a {
     font-family: montserrat,sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: black;
     font-size: 25px;
     text-decoration: none;
     margin: auto;
@@ -51,7 +51,7 @@ a {
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -74,13 +74,8 @@ a:hover {
     grid-template-columns: 1fr 13px;
 }
 
-.one {
-    font-family: dharma-gothic-e,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50px;
-    color: #F2C41D;
-    text-align: center;
+.one.html {
+    text-align: right;
     z-index: 10;
 }
 
@@ -89,8 +84,13 @@ a:hover {
     z-index: 10;
 }
 
-.three.html {
-    text-align: right;
+.three {
+    font-family: dharma-gothic-e,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #F2C41D;
+    text-align: center;
     z-index: 10;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 .line {
     width: 5px;
     height: 500px;
-    background-color: white;
+    background-color: black;
     margin: auto;
     grid-row: 1/5;
     grid-column: 2/3;
@@ -113,58 +113,37 @@ a:hover {
     z-index: 1;
     position: relative;
     margin: auto;
-    margin-top: 0;
+    margin-top: 100px;
     top: 0;
-    left: 0;
+    display: block;
+    width: 40vw;
 }
 
 .image2 {
     z-index: 1;
     margin: auto;
-    margin-top: 0;
+    margin-top: 100px;
     top: 1080px;
+    display: block;
+    width: 40vw;
 }
 
 .image3 {
     z-index: 1;
     margin: auto;
-    margin-top: 0;
+    margin-top: 100px;
     top: 1080px;
+    display: block;
+    width: 40vw;
 }
 
 .image4 {
     z-index: 1;
     margin: auto;
-    margin-top: 0;
+    margin-top: 100px;
     top: 1080px;
-}
-
-.image5 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image6 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image7 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
-}
-
-.image8 {
-    z-index: 1;
-    margin: auto;
-    margin-top: 0;
-    top: 1080px;
+    display: block;
+    width: 40vw;
 }
 
 .description {

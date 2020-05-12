@@ -66,6 +66,9 @@ a:hover {
     grid-column: 1/2;
     margin: auto;
     margin-left: 1vw;
+    z-index: 10;
+    position: fixed;
+    top: 220px;
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -117,6 +120,7 @@ a:hover {
     padding: 0;
     letter-spacing: 50px;
     grid-row: 1/2;
+    line-height: 0.7em;
 }
 
 .lastname {
@@ -129,4 +133,4 @@ a:hover {
     padding: 0;
     letter-spacing: 55px;
     grid-row: 2/3;
-}
+} 
