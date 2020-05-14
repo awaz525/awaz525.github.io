@@ -122,7 +122,32 @@ a:hover {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
+    .home {
+        color: black;
+    }
+
+    .one.html {
+        color: white;
+    }
+
+    .three.html {
+        color: white;
+    }
+
+    .about.html {
+        color: white;
+    }
+
+    a:visited {
+        color: none;
+    }
+
+    a:hover {
+        color: #F2C41D;
+    }
+
     .line {
+        background-color: white;
         height: 320px;
     }
 
@@ -134,7 +159,34 @@ a:hover {
         font-size: 15px;
     }
 
-    .image1 {
-        width: ;
+    .description {
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        font-size: 15px;
+        top: 10px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .navbar {
+        height: 250px;
+    }
+
+    .line {
+        height: 220px;
+    }
+
+    .home {
+        top: 5px;
+    }
+
+    .about {
+        font-size: 10px;
     }
 }

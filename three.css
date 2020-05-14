@@ -164,6 +164,14 @@ a:hover {
     grid-column: 2/3;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .line {
         height: 320px;
@@ -209,16 +217,12 @@ a:hover {
     .line {
         background-color: black;
     }
+
 }
 
 @media screen and (max-width: 768px) {
-    .images {
-        max-width: 100vw;
-        margin: auto;
-    }
-
     .image1 {
-        margin-top: 10px;
+        margin-top: 25px;
     }
     
     .image2 {
@@ -235,27 +239,27 @@ a:hover {
         margin-top: 10px;
     }
 
-    a:visited {
-        color: none;
+    .description {
+        font-size: 15px;
     }
 
-    .one.html {
-        color: black;
+    a {
+        font-size: 10px;
     }
 
-    .three.html {
-        color: black;
-    }
-
-    .about.html {
-        color: black;
-    }
-
-    a:hover {
-        color: #F2C41D;
+    .navbar {
+        height: 250px;
     }
 
     .line {
-        background-color: black;
+        height: 220px;
+    }
+
+    .home {
+        top: 5px;
+    }
+
+    .three {
+        font-size: 10px;
     }
 }
